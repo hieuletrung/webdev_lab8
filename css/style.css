@@ -1,13 +1,4 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-/* Navigation bar at the top */
-nav {
+#main-navbar {
     background-color: blue;
     overflow: hidden;
     width: 100%;
@@ -19,18 +10,18 @@ nav {
     justify-content: center; /* Center the navigation items */
 }
 
-nav ul {
+#main-navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-nav ul li {
+#main-navbar ul li {
     padding: 10px 20px;
 }
 
-nav ul li a {
+#main-navbar ul li a {
     color: #fff;
     text-decoration: none;
     background-color: #000;
